@@ -29,6 +29,15 @@ URL:            https://themeforest.net/user/irstheme
 /*--------------------------------------------------------------
 #0.1    Theme Reset Style
 --------------------------------------------------------------*/
+
+@font-face {
+  font-family: "josephsophia";
+  src: url("../fonts/josephsophia.eot%3F") format("embedded-opentype"),
+       url("../fonts/josephsophia.ttf") format("truetype"),
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: 18px;
 }
@@ -1615,7 +1624,7 @@ a:focus {
   /*** arrow hover ***/
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .hero {
     min-height: 600px;
   }
@@ -1625,7 +1634,7 @@ a:focus {
   .hero {
     min-height: 500px;
   }
-}
+} */
 
 .hero .slide-item {
   height: 100vh;
@@ -2064,7 +2073,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
+  background: url("../images/footer-bg.jpeg") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
