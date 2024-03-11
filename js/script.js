@@ -96,7 +96,7 @@
         arrows: true,
         prevArrow: '<button type="button" class="slick-prev">Previous</button>',
         nextArrow: '<button type="button" class="slick-next">Next</button>',
-        dots: true,
+        dots: false,
         fade: true,
         cssEase: "linear",
       });
@@ -124,8 +124,16 @@
   function popupSaveTheDateCircle() {
     var saveTheDateCircle = $(".save-the-date");
     saveTheDateCircle.addClass("popup-save-the-date");
+    setTimeout(startMusic(), 15000);
   }
 
+  function startMusic() {
+    console.log("startMusic");
+    if ($(".preloader").length) {
+      console.log("playButton");
+      $(".playButton").click();
+    }
+  }
   /*------------------------------------------
         = HIDE PRELOADER
     -------------------------------------------*/
