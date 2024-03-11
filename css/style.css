@@ -222,6 +222,14 @@ a:focus {
   background-color: red;
 }
 
+
+.heart-l{
+  left:-10px !important;
+}
+.heart-r{
+  left:-44px !important;
+}
+
 /*** music box ***/
 .music-box {
   position: fixed;
@@ -1909,6 +1917,7 @@ a:focus {
   }
 }
 
+
 /*** header style 2 ****/
 /*--------------------------------------------------------------
 #0.4	hero slider
@@ -2308,7 +2317,7 @@ a:focus {
 
 @media (max-width: 991px) {
   .hero .wedding-announcement .popup-save-the-date {
-    bottom: -170px;
+    bottom: -140px;
   }
 }
 
@@ -2371,7 +2380,7 @@ a:focus {
 #0.5	footer
 --------------------------------------------------------------*/
 .site-footer {
-  background: url("../images/footer-bg.jpeg") center center/cover no-repeat local;
+  background: url("../images/footer-bg.jpg") center center/cover no-repeat local;
   text-align: center;
   color: #fff;
   padding: 160px 0;
